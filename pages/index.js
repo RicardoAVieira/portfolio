@@ -10,8 +10,6 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-
-
       <main className={styles.main}>
         <div class="max-w-xl mx-auto bg-white rounded-x1 shadow-md overflow-hidden md:max-w-2xl">
           <div class="md:flex w-auto h-auto ">
