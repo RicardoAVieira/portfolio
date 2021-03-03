@@ -1,6 +1,6 @@
 .container {
   min-height: 100vh;
-  background-color: rgb(251, 245, 236);
+  background-color: rgb(255, 255, 245);
   padding: 0 0.5rem;
   display: flex;
   flex-direction: column;
@@ -37,7 +37,7 @@
 }
 
 .title a {
-  color: #0055af;
+  color: #003d7e;
   text-decoration: none;
 }
 
@@ -64,7 +64,7 @@
 }
 
 .code {
-  background: #fafafa;
+  background: #ffffff;
   border-radius: 5px;
   padding: 0.75rem;
   font-size: 1.1rem;
@@ -88,7 +88,7 @@
   text-align: left;
   color: inherit;
   text-decoration: none;
-  border: 1px solid #a1a1a1;
+  border: 1px solid #888686;
   border-radius: 15px;
   transition: color 0.15s ease, border-color 0.15s ease;
 }
