@@ -1,13 +1,18 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
-
+<script async defer src="https://static.cdn.prismic.io/prismic.js?new=true&repo=rvdev"></script>
 
 export default function Home() {
   return (
     <div className={styles.container}>
+
+      <script async defer src="https://static.cdn.prismic.io/prismic.js?new=true&repo=rvdev"></script>
       <Head>
-        <title>Create Next App</title>
+        <title>Ricardo Vieira Development</title>
         <link rel="icon" href="/favicon.ico" />
+        <div>
+
+        </div>
       </Head>
 
       <main className={styles.main}>
