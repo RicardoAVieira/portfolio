@@ -1,21 +1,20 @@
 import Head from 'next/head'
+import Header from '../components/Header'
 import styles from '../styles/Home.module.css'
-<script async defer src="https://static.cdn.prismic.io/prismic.js?new=true&repo=rvdev"></script>
+import Footer from '../components/Footer'
+
 
 export default function Home() {
-  return (
+  return (<div className="bg-gradient-to-r from-purple-100 via-pink-100 to-red-100">
+    <Head>
+      <title>Ricardo Vieira Development</title>
+      <link rel="icon" href="/favicon.ico" />
+
+    </Head>
+    <Header />
     <div className={styles.container}>
-
-      <script async defer src="https://static.cdn.prismic.io/prismic.js?new=true&repo=rvdev"></script>
-      <Head>
-        <title>Ricardo Vieira Development</title>
-        <link rel="icon" href="/favicon.ico" />
-        <div>
-
-        </div>
-      </Head>
-
       <main className={styles.main}>
+
         <div class="max-w-xl mx-auto bg-white rounded-x1 shadow-md overflow-hidden md:max-w-2xl">
           <div class="md:flex w-auto h-auto ">
             <div class="md:flex-shrink-0">
@@ -34,16 +33,8 @@ export default function Home() {
         </div>
       </main>
 
-      <footer className={styles.footer}>
-        <a
-          href="https://www.linkedin.com/in/ricardoav/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{' RVDev'}
-          <img src="/logo_size.jpg" alt="RVDev Logo" className={styles.logo} />
-        </a>
-      </footer>
     </div>
+    <Footer />
+  </div>
   )
 }
