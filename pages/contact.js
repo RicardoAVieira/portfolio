@@ -18,19 +18,10 @@ export default function Contact() {
 
             <div className={styles.container}>
                 <main className={styles.main}>
-                    <form name="contact" method="POST" data-netlify="true" class="flex flex-col border-solid border-4 border-light-blue-500">
-                        <label for="name">Name</label>
-                        <input type="text" id="name" name="name" />
+                    <h1>
+                        <a href="mailto:ricardo.antunes.vieira@gmail.com">In Development, send E-mail:</a>
 
-                        <label for="email">Email</label>
-                        <input type="text" id="email" name="email" />
-
-                        <label for="message">Message</label>
-                        <textarea id="message" name="message" />
-
-                        <button type="submit">Send</button>
-
-                    </form>
+                    </h1>
                 </main>
             </div>
 
