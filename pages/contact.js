@@ -8,7 +8,7 @@ import Footer from '../components/Footer'
 export default function Contact() {
 
     return (
-        <div className="bg-gradient-to-r from-purple-100 via-pink-100 to-red-100">
+        <div className="bg-gradient-to-r from-purple-100 via-gray-200 to-purple-100">
             <Head>
                 <title>teste</title>
                 <meta charSet="utf-8" />
