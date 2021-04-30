@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste</title>
+    <style>
+        * {
+            margin-top: 0%;
+            margin-left: 0%;
+        }
+        
+        body {
+            background-color: rgb(18, 18, 18);
+        }
+        
+        .menu {
+            background-color: rgb(255, 221, 0);
+            color: #333;
+            position: fixed;
+            width: 100%;
+            height: 50px;
+            z-index: 5;
+        }
+        
+        .pMenu {
+            text-align: center;
+            margin-top: -50px;
+            font-size: 35px;
+            font-family: 'Grenze', serif;
+        }
+        
+        .cardTitle {
+            margin-top: 25px;
+            margin-bottom: 10px;
+            font-size: 25px;
+            font-family: 'Grenze', serif;
+        }
+        
+        .cardTitleParag {
+            margin-top: 10px;
+            padding-top: 10px;
+        }
+        
+        button {
+            background-color: rgb(255, 221, 0);
+            border-style: none;
+            color: #333;
+            border-radius: 20px;
+            margin-top: 5px;
+            width: 100%;
+            height: 35px;
+        }
+        
+        .row {
+            width: 100%;
+        }
+        
+        .coluna {
+            float: left;
+            width: 33.33%;
+            position: relative;
+        }
+        
+        .card1,
+        .card2,
+        .card3 {
+            text-align: center;
+            font-family: 'Work Sans', sans-serif;
+            font-size: 15px;
+            background-color: rgb(242, 242, 242);
+            box-shadow: 0 4px 8px 0 rgba(222, 236, 255, 0.219);
+            border-radius: 10px;
+            padding-left: 17px;
+            padding-right: 17px;
+        }
+        
+        .card1 {
+            position: relative;
+            width: 244px;
+            height: 320px;
+            left: 50%;
+            transform: translate(-50%, 105%);
+        }
+        
+        .card2 {
+            position: relative;
+            width: 235px;
+            height: 360px;
+            left: 50%;
+            transform: translate(-50%, 88%);
+        }
+        
+        .card3 {
+            position: relative;
+            width: 235px;
+            height: 155px;
+            left: 50%;
+            transform: translate(-50%, 190%);
+            padding-top: 0px;
+            padding-bottom: 37px;
+        }
+        
+        .card2Img {
+            margin-top: -5px;
+            margin-bottom: 10px;
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            box-shadow: 0px 1px 1px 0.5px gray;
+        }
+        
+        .icone {
+            background-color: white;
+            width: 35px;
+            height: 35px;
+            margin-top: 8px;
+            margin-left: 20px;
+            border-radius: 50%;
+            box-shadow: 0px 1px 1px 0.5px gray;
+        }
+        
+        @media (max-width: 870px) {
+            .row {
+                height: 330px;
+            }
+            .coluna {
+                width: 100%;
+                height: 100%;
+            }
+            .cardTitle {
+                margin-top: 0px;
+                margin-bottom: 0px;
+                font-size: 25px;
+                font-family: 'Grenze', serif;
+            }
+            .cardTitleParag {
+                margin-top: 0px;
+                padding-top: 0px;
+            }
+            .card1,
+            .card2,
+            .card3 {
+                text-align: center;
+                background-color: rgb(242, 242, 242);
+                box-shadow: 0 4px 8px 0 rgba(222, 236, 255, 0.219);
+                border-radius: 7px;
+                padding-left: 15px;
+                padding-top: 15px;
+                padding-right: 15px;
+                padding-bottom: 15px;
+            }
+            .card1 {
+                position: relative;
+                width: 275px;
+                height: 280px;
+                left: 50%;
+                transform: translate(-50%, 70px);
+            }
+            .card2 {
+                position: relative;
+                width: 275px;
+                height: 320px;
+                left: 50%;
+                transform: translate(-50%, 70px);
+            }
+            .card3 {
+                position: relative;
+                width: 275px;
+                height: 165px;
+                left: 50%;
+                transform: translate(-50%, 110px);
+            }
+            .card2Img {
+                margin-top: -10px;
+                width: 170px;
+                height: 170px;
+                margin-bottom: 10px;
+                border-radius: 10px;
+                box-shadow: 0px 1px 1px 0.5px gray;
+            }
+            button {
+                background-color: rgb(255, 221, 0);
+                border-style: none;
+                color: #333;
+                border-radius: 20px;
+                margin-top: 0px;
+                width: 100%;
+                height: 35px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="menu">
+        <Img src="menu1.jpg" class="icone" />
+        <p class="pMenu"> Teste</p>
+    </div>
+
+
+    <div class="row">
+        <div class="coluna">
+            <div class="card1">
+                <div class="cardTitle">
+                    <p class="cardTitleParag">
+                        <b>
+                            Lorem Ipsum
+                        </b>
+                    </p>
+                </div>
+                <div class="container">
+                    <p class="cardParag">
+                        Se dolore transferrem et anim quibusdam ut offendit. Pariatur ne laborum. Fugiat sed aliquip, magna coniunctione nescius fore mandaremus te legam arbitror ab lorem culpa, iis quo nulla ingeniis, fabulas labore elit eiusmod malis est nulla o aliquip ea
+                        velit ubi eram transferrem probant dolore excepteur iis irure se eu sunt incurreret.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="coluna">
+            <div class="card2">
+                <div class="cardTitle">
+                    <p class="cardTitleParag">
+                        <b>
+                            Lorem Ipsum
+                        </b>
+                    </p>
+                </div>
+                <img src="pexels-flo-maderebner-869258.jpg" alt="Monutain" class="card2Img">
+                <div class="container">
+                    <p class="cardParag">Se dolore transferrem et anim quibusdam ut offendit. Pariatur ne laborum.</p>
+                </div>
+            </div>
+        </div>
+        <div class="coluna">
+            <div class="card3">
+                <div class="cardTitle">
+                    <p class="cardTitleParag">
+                        <b>
+                            Lorem Ipsum
+                        </b>
+                    </p>
+                </div>
+                <div class="container">
+                    <p class="cardParag">Se dolore transferrem et anim quibusdam ut offendit. Pariatur ne laborum.</p>
+                </div>
+                <a href="https://portal.uniasselvi.com.br/" target="_blank"><button>Uniasselvi</button></a>
+            </div>
+        </div>
+    </div>
+
+    </div>
+
+</body>
+
+</html>
