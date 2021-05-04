@@ -8,11 +8,12 @@ import Footer from '../components/Footer'
 export default function Contact() {
 
     return (
-        <div className="bg-gradient-to-r from-purple-100 via-gray-200 to-purple-100">
+        <div className="bg-gradient-to-r from-gray-200 via-gray-300 to-gray-100">
             <Head>
                 <title>teste</title>
                 <meta charSet="utf-8" />
                 <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+                
             </Head>
             <Header />
 
@@ -20,6 +21,7 @@ export default function Contact() {
                 <main className={styles.main}>
                     <h1>
                         <a href="mailto:ricardo.antunes.vieira@gmail.com">In Development, send E-mail:</a>
+
 
                     </h1>
                 </main>

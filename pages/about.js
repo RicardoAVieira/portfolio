@@ -8,7 +8,7 @@ import Footer from '../components/Footer'
 export default function Contact() {
 
     return (
-        <div className="bg-gradient-to-r from-purple-100 via-gray-200 to-purple-100">
+        <div className="bg-gradient-to-r from-gray-200 via-gray-300 to-gray-100">
             <Head>
                 <title>teste</title>
                 <meta charSet="utf-8" />
@@ -18,7 +18,7 @@ export default function Contact() {
 
             <div className={styles.container}>
                 <main className={styles.main}>
-                    <div className="max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl">
+                    <div className="max-w-md mx-auto bg-white rounded-xl shadow-2xl overflow-hidden md:max-w-2xl">
                         <div className="md:flex">
                             <div className="md:flex-shrink-0">
                             </div>
