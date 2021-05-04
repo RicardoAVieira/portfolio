@@ -20,8 +20,8 @@ export default function Contact() {
             <div className={styles.container}>
                 <main className={styles.main}>
                     <h1>
-                        <a href="mailto:ricardo.antunes.vieira@gmail.com">In Development, send E-mail:</a>
-
+                        <a href="mailto:ricardo.antunes.vieira@gmail.com">In Development,click here to send Email:</a>
+                        <a href="https://www.linkedin.com/in/ricardoav/" target="_blank">Linkedin</a>
 
                     </h1>
                 </main>
