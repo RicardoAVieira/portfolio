@@ -1,4 +1,6 @@
 import '../styles/globals.css'
+import '../components/Footer.module.css'
+import React from 'react'
 
 
 function MyApp({ Component, pageProps }) {

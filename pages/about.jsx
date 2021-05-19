@@ -2,6 +2,7 @@ import styles from '../styles/Home.module.css'
 import Header from '../components/Header'
 import Head from 'next/head'
 import Footer from '../components/Footer'
+import React from 'react'
 
 
 
