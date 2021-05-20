@@ -60,3 +60,137 @@
 	font-size: 13px;
 	margin-bottom: -30px;
 }
+@media only screen and (max-device-width: 600px) {
+	.footerDark .container {
+		display: flex;
+		justify-content: space-around;
+	}
+	.footerDark .container p {
+		justify-content: center;
+	}
+	
+	.footerDark .column {
+		display: flex;
+		flex-direction: column;
+		min-width: 100px;
+		max-width: 100px;
+	}
+	.footerDark .text {
+		width: 250px;
+		margin-right: 10px;
+	}
+	.footerDark .text p {
+		text-align: none;
+		text-justify: none;
+		font-size: 15px;
+		color: rgba(255, 255, 255, 0.4);
+	}
+	
+	.footerDark {
+		box-shadow: 0 0 1em #7da3b6;
+		padding: 40px 0;
+		color: #f0f9ff;
+		background-color: #263238;
+	}
+	
+	.footerDark ul a {
+		color: inherit;
+		text-decoration: none;
+		opacity: 0.6;
+	}
+	
+	.footerDark ul a:hover {
+		opacity: 0.8;
+	}
+	
+	.footerDark .itemSocial {
+		padding-top: 30px;
+		text-align: center;
+	}
+	
+	.footerDark .itemSocial > a {
+		display: inline-block;
+		text-align: center;
+		margin: 0 8px;
+		opacity: 0.75;
+	}
+	
+	.footerDark .itemSocial > a:hover {
+		opacity: 0.9;
+	}
+	
+	.footerDark .copyright {
+		text-align: center;
+		padding-top: 30px;
+		opacity: 0.3;
+		font-size: 13px;
+		margin-bottom: -30px;
+	}
+}
+@media only screen and (max-device-width: 400px) {
+	.footerDark .container {
+		display: flex;
+		justify-content: space-around;
+	}
+	.footerDark .container p {
+		justify-content: center;
+	}
+	
+	.footerDark .column {
+		justify-content: flex-start;
+		width: 10%;
+	}
+	.footerDark .text {
+		width: 200px;
+		
+		margin-left: -20px;
+		margin-right: 5px;
+	}
+	.footerDark .text p {
+		text-align: none;
+		text-justify: none;
+		font-size: 15px;
+		color: rgba(255, 255, 255, 0.4);
+	}
+	
+	.footerDark {
+		box-shadow: 0 0 1em #7da3b6;
+		padding: 40px 0;
+		color: #f0f9ff;
+		background-color: #263238;
+	}
+	
+	.footerDark ul a {
+		color: inherit;
+		text-decoration: none;
+		opacity: 0.6;
+	}
+	
+	.footerDark ul a:hover {
+		opacity: 0.8;
+	}
+	
+	.footerDark .itemSocial {
+		padding-top: 30px;
+		text-align: center;
+	}
+	
+	.footerDark .itemSocial > a {
+		display: inline-block;
+		text-align: center;
+		margin: 0 8px;
+		opacity: 0.75;
+	}
+	
+	.footerDark .itemSocial > a:hover {
+		opacity: 0.9;
+	}
+	
+	.footerDark .copyright {
+		text-align: center;
+		padding-top: 30px;
+		opacity: 0.3;
+		font-size: 13px;
+		margin-bottom: -30px;
+	}
+}
