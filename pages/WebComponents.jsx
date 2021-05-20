@@ -5,6 +5,7 @@ import Footer from "../components/layout/Footer";
 import Card from "../components/layout/Card";
 import Contador from "../components/contador/Contador";
 import Mega from "../components/mega/Mega";
+import Calculator from "../components/Calc/Calculator";
 
 export default function WebComponents() {
 	return (
@@ -18,11 +19,18 @@ export default function WebComponents() {
 
 			<div className={styles.container}>
 				<main className={styles.main}>
-					<Card titulo="Contador" >
-						<Contador numeroInicial={1} numero2Inicial={1} passoInicial={1}></Contador>
+					<Card titulo="Contador">
+						<Contador
+							numeroInicial={1}
+							numero2Inicial={1}
+							passoInicial={1}
+						></Contador>
 					</Card>
 					<Card titulo="Sorteador Mega-Sena" styles={styles.card}>
 						<Mega></Mega>
+					</Card>
+					<Card titulo="Exemplo de Calculadora" styles={styles.card}>
+						<Calculator />
 					</Card>
 				</main>
 			</div>

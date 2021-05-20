@@ -1,15 +1,6 @@
-.Contador input{
-    font-size: 1.4rem;
-    width: 30%;
-}
-.Contador button{
-    margin: 5px;
-    height: 40px;
-    width: 40px;
-    border-radius: 50%;
-    background-color: blueviolet;
-    color: antiquewhite;
-    font-size: 1.4rem;
+.Contador{
+    margin-top: 15%;
+    text-align: center;
 }
 .Contador span{
     font-size: 20px;
@@ -19,5 +10,21 @@
     background-color: #263238;
     color: #f0f9ff;
     border-radius: 10%;
-    ;
+    
+}
+.Contador input{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    font-size: 1.4rem;
+    width: 30%;
+}
+.Contador button{
+    
+    margin: 5px;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: #263238;
+    color: #f0f9ff;
+    font-size: 1.4rem;
 }

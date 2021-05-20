@@ -3,7 +3,8 @@
 }
 .Mega h2{
     font-size: 30px;
-    margin-top: -12px;
+    margin-top: 10%;
+    padding-bottom: 5%;
 }
 .Mega input{
     margin-top: 10px;
@@ -22,8 +23,8 @@
     
 }
 .Mega button{
-    background-color: blueviolet;
-    color: whitesmoke;
+    background-color: #263238;
+    color: #f0f9ff;
     padding: 10px;
     margin-top: 5px;
     border-radius: 5px;
