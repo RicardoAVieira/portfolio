@@ -13,11 +13,9 @@ export default function Footer() {
 								<a href="#">Web sites</a>
 							</li>
 							<li>
-								<a href="/myApps">Apps e Ferramentas</a>
+								<a href="/myApps">Apps</a>
 							</li>
-							<li>
-								
-							</li>
+							<li></li>
 						</ul>
 					</div>
 					<div className={styles.column}>
@@ -29,30 +27,31 @@ export default function Footer() {
 							<li>
 								<a href="#">Equipe</a>
 							</li>
-							<li>
-								
-							</li>
+							<li></li>
 						</ul>
 					</div>
+					<div className={styles.break}></div> 
 					<div className={styles.text}>
 						<h3>RvDev.</h3>
 						<p>
-						Soluções online e offline para seu negócio. Somos especialistas no desenvolvimento de Websites responsivos para todos os segmentos de empresas. Desenvolvemos aplicativos para Android e iOS. 
+							Soluções online e offline para seu negócio. Somos especialistas no
+							desenvolvimento de Websites responsivos para todos os segmentos de
+							empresas. Desenvolvemos aplicativos para Android e iOS.
 						</p>
 					</div>
 				</div>
 				<div className={styles.itemSocial}>
 					<a href="https://www.linkedin.com/in/ricardoav/" target="blank">
-						<img src="./linkedin.png"/>
+						<img src="./linkedin.png" />
 					</a>
 					<a href="https://github.com/RicardoAVieira" target="blank">
-						<img src="./github.png"/>
+						<img src="./github.png" />
 					</a>
 					<a href="https://www.facebook.com/RicardoTSI/" target="blank">
-						<img src="./facebook.png"/>
+						<img src="./facebook.png" />
 					</a>
 					<a href="https://www.instagram.com/ricardotsi/" target="blank">
-						<img src="./instagram.png"/>
+						<img src="./instagram.png" />
 					</a>
 				</div>
 				<p className={styles.copyright}>RvDev 2021</p>

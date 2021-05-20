@@ -6,7 +6,7 @@ export default function Header() {
         <div className={styles.hBody}>
             <div className={styles.hMenus}  >
                 <a className={styles.hMenu} href="/">Home</a>
-                <a className={styles.hMenu} href="/WebComponents">Componentes Web</a>
+                <a className={styles.hMenu} href="/WebComponents">Web</a>
                 <a className={styles.hMenu} href="/myApps">Apps</a>
                 <a className={styles.hMenu} href="contact">Contato</a>
                 <a className={styles.hMenu} href="about">Sobre</a>
