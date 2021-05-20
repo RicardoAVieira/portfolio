@@ -6,7 +6,7 @@ import React from "react";
 
 export default function Contact() {
 	return (
-		<div className="bg-gradient-to-r from-gray-200 via-gray-300 to-gray-100">
+		<div className="">
 			<Head>
 				<title>teste</title>
 				<meta charSet="utf-8" />
@@ -15,15 +15,10 @@ export default function Contact() {
 			<Header />
 
 			<div className={styles.container}>
-				<main className={styles.main}>
-					<h1>
-						<a href="mailto:ricardo.antunes.vieira@gmail.com">
-							In Development,click here to send Email:
-						</a>
-						<a href="https://www.linkedin.com/in/ricardoav/" target="_blank">
-							Linkedin
-						</a>
-					</h1>
+				<main className={styles.mainContact}>
+					<a href="mailto:ricardo.antunes.vieira@gmail.com">
+						 Em desenvolvimento, para enviar um E-mail clique aqui!
+					</a>
 				</main>
 			</div>
 

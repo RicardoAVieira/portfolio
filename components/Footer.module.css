@@ -1,4 +1,5 @@
 .footerDark .container {
+
 	display: flex;
 	justify-content: space-around;
 }
@@ -22,9 +23,10 @@
 }
 
 .footerDark {
+	box-shadow: 0 0 1em #7da3b6;
 	padding: 40px 0;
 	color: #f0f9ff;
-	background-color: #282d32;
+	background-color: #263238;
 }
 
 .footerDark ul a {

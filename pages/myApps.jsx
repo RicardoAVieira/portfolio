@@ -6,7 +6,7 @@ import React from "react";
 
 export default function Home() {
 	return (
-		<div className="bg-gradient-to-r from-gray-200 via-gray-300 to-gray-100">
+		<div className="">
 			<Head>
 				<title>Ricardo Vieira Development</title>
 				<link rel="icon" href="/favicon.ico" />

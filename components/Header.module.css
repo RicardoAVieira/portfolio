@@ -1,0 +1,17 @@
+.hBody{
+    background-color: #263238;
+    box-shadow: 0 0 1em #263238;
+    display: flex;
+	justify-content: space-around;
+    position: fixed;
+}
+.hMenus{
+    
+    padding-top: 10px;
+    height:45px;
+    width: 100vw;
+}
+.hMenu{
+    padding-left: 50px;
+    color: #f0f9ff;
+}

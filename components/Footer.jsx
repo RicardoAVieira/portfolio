@@ -7,39 +7,37 @@ export default function Footer() {
 			<footer>
 				<div className={styles.container}>
 					<div className={styles.column}>
-						<h3>Services</h3>
+						<h3>Serviços</h3>
 						<ul>
 							<li>
-								<a href="#">Web design</a>
+								<a href="#">Web sites</a>
 							</li>
 							<li>
-								<a href="#">Development</a>
+								<a href="/myApps">Apps e Ferramentas</a>
 							</li>
 							<li>
-								<a href="#">Hosting</a>
+								
 							</li>
 						</ul>
 					</div>
 					<div className={styles.column}>
-						<h3>About</h3>
+						<h3>Sobre</h3>
 						<ul>
 							<li>
-								<a href="#">Company</a>
+								<a href="/about">Empresa</a>
 							</li>
 							<li>
-								<a href="#">Team</a>
+								<a href="#">Equipe</a>
 							</li>
 							<li>
-								<a href="#">Careers</a>
+								
 							</li>
 						</ul>
 					</div>
 					<div className={styles.text}>
-						<h3>Ricardo Vieira Dev.</h3>
+						<h3>RvDev.</h3>
 						<p>
-							Praesent sed lobortis mi. Suspendisse vel placerat ligula. Vivamus
-							ac sem lacus. Ut vehicula rhoncus elementum. Etiam quis tristique
-							lectus. Aliquam in arcu eget velit pulvinar dictum vel in justo.
+						Soluções online e offline para seu negócio. Somos especialistas no desenvolvimento de Websites responsivos para todos os segmentos de empresas. Desenvolvemos aplicativos para Android e iOS. 
 						</p>
 					</div>
 				</div>

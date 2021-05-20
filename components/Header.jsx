@@ -1,13 +1,14 @@
 import React from 'react'
+import styles from "./Header.module.css"
 
 export default function Header() {
     return (
-        <div className="flex h-12 justify-between bg-gray-900 shadow-2xl">
-            <div className="flex justify-Start "  >
-                <a className=" text-base p-5 text-white" href="/">Home</a>
-                <a className=" text-base p-5 text-white " href="/myApps">Apps</a>
-                <a className=" text-base p-5 text-white " href="contact">Contato</a>
-                <a className=" text-base p-5 text-white " href="about">Sobre</a>
+        <div className={styles.hBody}>
+            <div className={styles.hMenus}  >
+                <a className={styles.hMenu} href="/">Home</a>
+                <a className={styles.hMenu} href="/myApps">Apps</a>
+                <a className={styles.hMenu} href="contact">Contato</a>
+                <a className={styles.hMenu} href="about">Sobre</a>
              
             </div>
            
