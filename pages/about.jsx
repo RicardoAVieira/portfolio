@@ -18,7 +18,7 @@ export default function Contact() {
 				<main className={styles.main}>
 					<div className={styles.aboutCompany}>
 						<h1>Sobre a RvDev</h1>
-						<p className="">
+						<p className={styles.text}>
 							Empresa especializada em desenvolver soluções online e offline
 							para o seu negócio. Somos especialistas no desenvolvimento de
 							Websites responsivos para todos os segmentos de empresas.
