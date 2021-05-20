@@ -1,6 +1,6 @@
 import React from "react";
 
-export default (props) => {
+const botoes = (props) => {
 	return (
 		<div>
 			<button onClick={props.soma}>+</button>
@@ -10,3 +10,5 @@ export default (props) => {
 		</div>
 	);
 };
+
+export default botoes

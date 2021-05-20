@@ -11,15 +11,14 @@ class Contador extends Component {
 		passo: this.props.passoInicial || 5,
 	};
 
-	sum = () => {
-		this.setState({
-			numero: this.state.numero + this.state.numero2,
-		});
-	};
-
 	setPasso = (novoPasso) => {
 		this.setState({
 			numero2: novoPasso,
+		});
+	};
+	sum = () => {
+		this.setState({
+			numero: this.state.numero + this.state.numero2,
 		});
 	};
 
@@ -58,4 +57,5 @@ class Contador extends Component {
 		);
 	}
 }
-export default Contador;
+const contador = Contador;
+export default contador;

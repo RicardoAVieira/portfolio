@@ -1,0 +1,30 @@
+.Mega{
+    text-align: center;
+}
+.Mega h2{
+    font-size: 30px;
+    margin-top: -12px;
+}
+.Mega input{
+    margin-top: 10px;
+    font: size 1.4rem;
+    width: 40px;;
+}
+.Mega label {
+    margin-top: 10px;
+    margin-right: 10px;
+}
+.Mega span{
+    background-color: #263238;
+    color: #f0f9ff;
+    padding: 5px;
+    border-radius: 5px;
+    
+}
+.Mega button{
+    background-color: blueviolet;
+    color: whitesmoke;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+}

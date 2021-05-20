@@ -1,6 +1,6 @@
 import React from "react";
 
-export default (props) => {
+const passo = (props) => {
 	return (
 		<div>
 			<label htmlFor="passoInput">Passo:</label>
@@ -13,3 +13,5 @@ export default (props) => {
 		</div>
 	);
 };
+
+export default passo;

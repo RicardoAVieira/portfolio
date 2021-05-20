@@ -1,7 +1,7 @@
 import React, { useState } from "react";
-import "./Mega.css"
+import styles from "./Mega.module.css"
 
-export default (props) => {
+const numerosMega = (props) => {
 	function gerarNumeroNaoContido(min, max, array) {
 		const aleatorio = parseInt(Math.random() * ((max + 1) - min)) + min
 		return array.includes(aleatorio) ? 
@@ -26,9 +26,9 @@ export default (props) => {
 	const [numeros, setNumeros] = useState(numerosIniciais);
 
 	return (
-		<div className="Mega">
+		<div className={styles.Mega}>
 			<h2>Mega</h2>
-			{numeros.join(" ")}
+			<span>{numeros.join(" | ")}</span>
 			<div>
 				<label>Qtde de Numeros</label>
 				<input type="number"
@@ -41,9 +41,11 @@ export default (props) => {
 					}}
 				/>
 			</div>
-			<button onClick={(_) => setNumeros(gerarNumeros(qtde))}>
+			<button onClick={(_) => setNumeros(gerarNumeros(qtde))} className={styles.button}>
 				Gerar Numeros
 			</button>
 		</div>
 	);
 };
+
+export default numerosMega;

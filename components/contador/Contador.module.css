@@ -11,3 +11,13 @@
     color: antiquewhite;
     font-size: 1.4rem;
 }
+.Contador span{
+    font-size: 20px;
+    margin: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #263238;
+    color: #f0f9ff;
+    border-radius: 10%;
+    ;
+}

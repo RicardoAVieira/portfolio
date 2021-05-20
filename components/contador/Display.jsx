@@ -1,5 +1,7 @@
 import React from "react";
 
-export default (props) => {
-	return <span>{props.numero} </span>;
+const display = (props) => {
+	return <span> {props.numero} </span>;
 };
+
+export default display;
