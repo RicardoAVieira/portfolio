@@ -1,6 +1,7 @@
 import '../styles/globals.css'
-import '../components/Footer.module.css'
-import '../components/Header.module.css'
+import '../components/layout/Footer.module.css'
+import '../components/layout/Header.module.css'
+import '../components/contador/Contador.module.css'
 import React from 'react'
 
 

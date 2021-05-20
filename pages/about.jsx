@@ -1,14 +1,14 @@
 import styles from "../styles/About.module.css";
-import Header from "../components/Header";
+import Header from "../components/layout/Header";
 import Head from "next/head";
-import Footer from "../components/Footer";
+import Footer from "../components/layout/Footer";
 import React from "react";
 
 export default function Contact() {
 	return (
 		<div className={styles.body}>
 			<Head>
-				<title>teste</title>
+				<title>Sobre RvDev</title>
 				<meta charSet="utf-8" />
 				<meta name="viewport" content="initial-scale=1.0, width=device-width" />
 			</Head>

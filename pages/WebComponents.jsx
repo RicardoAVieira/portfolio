@@ -1,24 +1,23 @@
-import styles from "../styles/Home.module.css";
+import styles from "../styles/WebComponents.module.css";
 import Header from "../components/layout/Header";
 import Head from "next/head";
 import Footer from "../components/layout/Footer";
-import React from "react";
+import Card from "../components/layout/Card";
+import Contador from "../components/contador/Contador";
 
-export default function Contact() {
+export default function WebComponents() {
 	return (
 		<div className="">
 			<Head>
-				<title>Contato RvDev</title>
+				<title>Componentes Web RvDev</title>
 				<meta charSet="utf-8" />
 				<meta name="viewport" content="initial-scale=1.0, width=device-width" />
 			</Head>
 			<Header />
 
 			<div className={styles.container}>
-				<main className={styles.mainContact}>
-					<a href="mailto:ricardo.antunes.vieira@gmail.com">
-						 Em desenvolvimento, para enviar um E-mail clique aqui!
-					</a>
+				<main className={styles.main}>
+					
 				</main>
 			</div>
 

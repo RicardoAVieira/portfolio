@@ -1,31 +1,31 @@
+.body {
+}
 .container {
-    min-height: 100vh;
-    padding: 0 0.5rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-image: url("/bgAbout.jpg");
-    background-repeat: no-repeat;
-    background-size: 100vw 50vh;
-    
-  }
-  .main {
-    padding-left: 200px;
-    padding-right: 200px;
-    padding-top: 400px;
-    color: #2f3e46;
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-  .aboutCompany{
-    font-size: 25px;
-  
-  }
-  .aboutCompany h1{
-    font-size: 70px;
-  }
-  
+	height: 100vh;
+	padding: 0 0.5rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	background-image: url("/bgAbout.jpg");
+	background-repeat: no-repeat;
+	background-size: 100vw 50vh;
+  background-position-y: 45px;
+}
+.main {
+	padding-left: 200px;
+	padding-right: 200px;
+	padding-top: 400px;
+	color: #2f3e46;
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.aboutCompany {
+	font-size: 20px;
+}
+.aboutCompany h1 {
+	font-size: 50px;
+  padding-bottom: 30px;
+}

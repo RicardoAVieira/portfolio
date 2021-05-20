@@ -1,14 +1,14 @@
 import Head from "next/head";
-import Header from "../components/Header";
+import Header from "../components/layout/Header";
 import styles from "../styles/Home.module.css";
-import Footer from "../components/Footer";
+import Footer from "../components/layout/Footer";
 import React from "react";
 
 export default function Home() {
 	return (
 		<div className="">
 			<Head>
-				<title>Ricardo Vieira Development</title>
+				<title>Aplicativos RvDev</title>
 				<link rel="icon" href="/favicon.ico" />
 			</Head>
 			<div>
