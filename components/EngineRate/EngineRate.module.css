@@ -1,0 +1,33 @@
+.EngineRate{
+    margin-top: 1%;
+    width: 100%;
+    text-align: end;
+    	
+}
+.EngineRate span{
+    font-size: 20px;
+    margin: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #263238;
+    color: #f0f9ff;
+    border-radius: 10%;
+    
+}
+
+.EngineRate input{
+    margin-top: 1%;
+    margin-bottom: 1%;
+    font-size: 1.4rem;
+    width: 80px;
+}
+.EngineRate button{
+    
+    margin: 5px;
+    height: 40px;
+    width: 40%;
+    border-radius: 10px;
+    background-color: #263238;
+    color: #f0f9ff;
+    font-size: 1.4rem;
+}

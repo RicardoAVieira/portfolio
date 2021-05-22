@@ -6,6 +6,7 @@ import '../components/mega/Mega.module.css'
 import '../components/Calc/Button.module.css'
 import '../components/Calc/Display.module.css'
 import '../components/Calc/Calculator.module.css'
+import '../components/EngineRate/EngineRate.module.css'
 
 import React from 'react'
 
